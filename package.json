@@ -1,0 +1,25 @@
+{
+  "name": "candidate",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha handler.spec.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "lambda-tester": "^4.0.1",
+    "mocha": "^8.2.0",
+    "nock": "^13.0.4",
+    "serverless-dotenv-plugin": "^3.0.0"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^4.5.0",
+    "aws-lambda": "^1.0.6",
+    "aws-sdk": "^2.773.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.4",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  }
+}
